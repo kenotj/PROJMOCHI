@@ -44,6 +44,7 @@ void WindowsHelper_FullScreen()
 
 	SMALL_RECT windowSize = { 0, 0, width - 1, height - 1 };
 	SetConsoleWindowInfo(wHnd, 1, &windowSize);
+	system("mode 300");
 }
 
 /*Clears everything in the console window and sets the cursor to position (0,0)*/

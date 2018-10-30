@@ -55,7 +55,7 @@ void Print_Map(LevelMap *levelMap) {
 	for (y = 0; y < 29; ++y) {
 		/* Load the x axis */
 		for (x = 0; x < 121; ++x) {
-			printf_s("%c", levelMap->dynamicLevelLayout[x][y]);
+			printf_s("%c", levelMap->dynamicLevelLayout[x][y]); 
 		}
 	}
 }
