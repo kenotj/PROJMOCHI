@@ -1,0 +1,17 @@
+﻿  main.c
+\\mac\home\desktop\proj_mochi\projectmochi_ken\projectmochi\main.c(29): warning C4013: 'kbhit' undefined; assuming extern returning int
+\\mac\home\desktop\proj_mochi\projectmochi_ken\projectmochi\main.c(32): warning C4013: 'getch' undefined; assuming extern returning int
+  GameState.c
+  GameStateInit.c
+  Graphics.c
+  InputHandler.c
+  LevelHandler.c
+  MathLibrary.c
+  Object.c
+  Player.c
+  stdafx.c
+  WindowsHelper.c
+  Generating Code...
+\\mac\home\desktop\proj_mochi\projectmochi_ken\projectmochi\source\mathlibrary.c(15): warning C4716: 'Deduct_Health': must return a value
+\\mac\home\desktop\proj_mochi\projectmochi_ken\projectmochi\source\mathlibrary.c(10): warning C4716: 'Add_Health': must return a value
+  ProjectMochi.vcxproj -> \\Mac\Home\Desktop\PROJ_MOCHI\ProjectMochi_KEN\Debug\ProjectMochi.exe
