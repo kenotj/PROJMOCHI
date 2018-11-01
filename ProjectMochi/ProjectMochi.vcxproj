@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="SOURCE\ART\MOCHI_ASSET_DigipenLogo_V01.txt" />
+    <Text Include="SOURCE\LEVELS\mochi_level_1.txt" />
     <Text Include="SOURCE\Text Files\digipenlogo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

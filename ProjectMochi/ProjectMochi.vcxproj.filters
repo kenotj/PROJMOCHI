@@ -19,6 +19,9 @@
     <Filter Include="Art">
       <UniqueIdentifier>{99542e13-f9f5-4981-94b0-3f2a69b1cad2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{affb0277-3de2-4ee2-8ba6-c115973a2cf2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -93,6 +96,9 @@
     </Text>
     <Text Include="SOURCE\ART\MOCHI_ASSET_DigipenLogo_V01.txt">
       <Filter>Art</Filter>
+    </Text>
+    <Text Include="SOURCE\LEVELS\mochi_level_1.txt">
+      <Filter>Level</Filter>
     </Text>
   </ItemGroup>
 </Project>

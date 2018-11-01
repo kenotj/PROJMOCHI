@@ -21,3 +21,5 @@ typedef struct GameState {
 }GameState;
 
 GameState* GameState_Create();
+
+bool Game_Update(Player *player, GameState *gameState);

@@ -1,0 +1,31 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\users\bau\desktop\github\proj_mochi\x64\debug\projectmochi.exe' is denied.
+  main.c
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing ')' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing '{' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ','
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ')'
+  GameState.c
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing ')' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing '{' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ','
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ')'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.c(30): warning C4013: 'WindowsHelper_SetCursorPosition' undefined; assuming extern returning int
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.c(32): warning C4013: 'ProcessInput' undefined; assuming extern returning int
+  GameStateInit.c
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing ')' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2143: syntax error: missing '{' before '*'
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ','
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\gamestate.h(25): error C2059: syntax error: ')'
+  Graphics.c
+  InputHandler.c
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\inputhandler.c(12): warning C4013: 'kbhit' undefined; assuming extern returning int
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\inputhandler.c(14): warning C4013: 'getch' undefined; assuming extern returning int
+  LevelHandler.c
+  MathLibrary.c
+  Object.c
+  Player.c
+  stdafx.c
+  WindowsHelper.c
+  Generating Code...
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\mathlibrary.c(15): warning C4716: 'Deduct_Health': must return a value
+c:\users\bau\desktop\github\proj_mochi\projectmochi\source\mathlibrary.c(10): warning C4716: 'Add_Health': must return a value

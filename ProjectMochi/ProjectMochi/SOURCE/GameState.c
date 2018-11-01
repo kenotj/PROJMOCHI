@@ -1,25 +1,21 @@
-/*************************
-
-
-*************************/
+/******************************************************************************/
+/*!
+\file   GameState.c
+\author Project Mochi
+\par    Course: GAM100
+\brief
+		Handle the state of the game(?)
+*/
+/******************************************************************************/
 #include "GameState.h"
 
-/* Create an empty game state object */
-GameState* GameState_Create()
+/*
+bool Game_Update(Player *player, GameState *gameState)
 {
-	GameState* gameState; /* the new object we will return */
-
-	/* allocate memory for the new object */
-	gameState = (GameState*)malloc(sizeof(GameState));
-	if (gameState == NULL)
-	{
-		return NULL; /* malloc can fail! */
-	}
-
-	/* assign empty values to all members */
-	gameState->isRunning = true;
-	gameState->currentGameState = 1;
-
-	/* return the new object */
-	return gameState;
+	WindowsHelper_SetCursorPosition(player->playerCurrentPositionX, player->playerCurrentPositionY);
+	printf("%c", player->previous_position);
+	ProcessInput(player);
+	WindowsHelper_SetCursorPosition(player->playerCurrentPositionX, player->playerCurrentPositionY);
+	printf("%c", player->model);
 }
+*/

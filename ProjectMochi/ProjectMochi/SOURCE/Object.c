@@ -1,7 +1,14 @@
-/*********************************************
-Handle the object collision
-Handle Object interaction within the game
-*********************************************/
+/******************************************************************************/
+/*!
+\file   Object.c
+\author Project Mochi
+\par    Course: GAM100
+\brief
+		GameState: 3
+		Handling the objects variables in the game. Include the physics mechanics
+		of the game.
+*/
+/******************************************************************************/
 #include "Object.h"
 
 /* Do a check if the object encounted is a collidable */

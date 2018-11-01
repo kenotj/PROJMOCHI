@@ -32,12 +32,7 @@ int main()
 	while (gameState->isRunning) {
 
 		/* Detect Player keypress */
-		if (kbhit()) 
-		{
-			/* TODO: Handle the command by the player */
-			char c = getch();
-			HandleInput(player, c);
-		}
+		
 
 		/* TODO: What to do here? hmmmm */
 

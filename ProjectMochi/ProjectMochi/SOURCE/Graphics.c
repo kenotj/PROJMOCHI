@@ -1,9 +1,13 @@
-/**********************************
-Handle the graphics of the game here
--
-- 
-**********************************/
-
+/******************************************************************************/
+/*!
+\file   Graphics.c
+\author Project Mochi
+\par    Course: GAM100
+\brief
+		Handling the graphics rendering in this game. Include printing of 
+		digipen logo.
+*/
+/******************************************************************************/
 #include "Graphics.h"
 
 /* Initialize the window */
@@ -29,6 +33,6 @@ void Print_DigiPenLogo() {
 		printf("Loading Error!\n");
 	}
 
-	Sleep(3600);
-	system("cls");
+	Sleep(3000);
+	GameState_Update(3);
 }
