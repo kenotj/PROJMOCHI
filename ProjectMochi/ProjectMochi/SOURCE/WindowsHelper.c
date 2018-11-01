@@ -1,3 +1,11 @@
+/******************************************************************************/
+/*!
+\file   WindowsHelper.c
+\par    Course: GAM100
+\brief
+		Standard library for handing the window console.
+*/
+/******************************************************************************/
 #include "WindowsHelper.h"
 
 /*Variables used to handle Windows stuff, not exposed to other parts of the game*/
@@ -44,6 +52,7 @@ void WindowsHelper_FullScreen()
 
 	SMALL_RECT windowSize = { 0, 0, width - 1, height - 1 };
 	SetConsoleWindowInfo(wHnd, 1, &windowSize);
+	system("mode 300");
 }
 
 /*Clears everything in the console window and sets the cursor to position (0,0)*/
@@ -72,7 +81,6 @@ int WindowsHelper_GetConsoleHeight()
 void WindowsHelper_HideCursor()
 {
 	CONSOLE_CURSOR_INFO info;
-	info.dwSize = 1;
 	info.bVisible = FALSE;
 	SetConsoleCursorInfo(wHnd, &info);
 }

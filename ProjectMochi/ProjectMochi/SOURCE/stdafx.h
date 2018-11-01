@@ -1,9 +1,13 @@
-/**************************
-PROJECT MOCHI
-WHO'S THAT MOCHI?
-Contains stdafx.h
-****************************/
-
+/******************************************************************************/
+/*!
+\file   stdafx.h
+\author Project Mochi
+\par    Course: GAM100
+\brief
+		stdafx.c header file
+		Contains all the standard library that will be used in this project.
+*/
+/******************************************************************************/
 #pragma once
 #include <windows.h>
 #include <stdio.h>
